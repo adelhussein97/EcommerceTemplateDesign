@@ -1,0 +1,17 @@
+.gmap_iframe {width:100%!important;height:600px!important;}
+.media{
+font-size: 2rem;
+}
+.media:hover{
+    transform: rotatex(50deg);
+}
+.EmailContactUs a{
+    color: white;
+    text-decoration: none;
+}
+.EmailContactUs a:hover{
+    color: black;
+}
+.div-media-dark{
+    height: 100%;
+}

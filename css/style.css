@@ -22,6 +22,7 @@ body {
     list-style: none;
     text-decoration: none;
     /* Allcolors */
+    --main-font: 'Noto Kufi Arabic', sans-serif;
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -62,8 +63,9 @@ body {
 
 }
 
-.header-banner {
-    background-color: var(--banner-color);
+.header-banner,
+.search {
+    background-color: var(--banner-color) !important;
 
 }
 
@@ -74,4 +76,14 @@ body {
 .child-banner {
     background-color: var(--gray-color-banner);
     height: 4rem;
+}
+
+.navbar,
+.navbar>a {
+    font-family: var(--main-font);
+    font-weight: 600;
+}
+
+a:hover {
+    color: var(--banner-color) !important;
 }

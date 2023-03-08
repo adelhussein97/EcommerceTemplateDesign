@@ -5,12 +5,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="كل شيء تحبه في سوق.كوم الان اصبح على أمازون مصر. استكشف وتسوّق الالكترونيات، الكمبيوترات، الملابس، الاكسسوارات، الأحذية، الساعات، الأثاث، مستلزمات المنزل والمطبخ، منتجات الجمال والعناية الشخصية،
+        <meta name="description" content="كل شيء تحبه في سوق.كوم الان اصبح على جوميا مصر. استكشف وتسوّق الالكترونيات، الكمبيوترات، الملابس، الاكسسوارات، الأحذية، الساعات، الأثاث، مستلزمات المنزل والمطبخ، منتجات الجمال والعناية الشخصية،
                 البقالة والمزيد. استمتع بأفضل العروض، والدفع عند الاستلام و ترجيع واستبدال مشترياتك بسهولة.">
-        <title>سوق بقى امازون | اهلا بكم في أمازون مصر | تسوق اون لاين الاجهزة الالكترونية، الملابس، منتجات الجمال،
+        <title>سوق بقى جوميا | اهلا بكم في جوميا مصر | تسوق اون لاين الاجهزة الالكترونية، الملابس، منتجات الجمال،
             البقالة واكثر فقط
-            على أمازون مصر</title>
-
+            على جوميا مصر</title>
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/logo.ico">
+        <!-- <link rel="apple-touch-icon" href="images/myjumia-top-logo.png"> -->
         <!-- Style Files -->
         <link rel="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
@@ -28,11 +30,16 @@
 
     <body>
         <!-- Start Header  -->
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0" id="top">
             <!-- Start Banner  -->
-            <div class="header-banner">
-                <div class="container d-flex justify-content-end h-25">
-                    <img src="images/home/headerRamadanAR.png" alt="">
+            <div class="header-banner ">
+                <div class="container  h-25">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col w-25 w-md-50 col-lg-100">
+                            <img class="w-md-50 col-lg-100" src="images/home/headerRamadanAR.png" alt="">
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <!-- End Banner  -->
@@ -67,7 +74,7 @@
             <!-- navigation -->
             <nav class="navbar navbar-expand-lg bg-body-light">
                 <div class="container">
-                    <div class="nav-item dropdown  fs-4">
+                    <div class="nav-item dropdown ms-3  fs-4 d-none d-lg-flex">
                         <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-bars fs-4"></i>
                         </a>
@@ -85,12 +92,12 @@
                     </div>
 
                     <div class="text-main-color m-2 p-3 fs-4">
-                        <i class="fa-regular ps-2 fa-star-half-stroke"></i>
+                        <i class="fa-regular ps-2 fa-star-half-stroke ms-2"></i>
                         JUMIA
                     </div>
                     <div class="input-group w-50 me-5">
 
-                        <span class="input-group-text me-3 fs-3" id="addon-wrapping"><i
+                        <span class="input-group-text me-5 fs-3" id="addon-wrapping"><i
                                 class="fa-solid fa-magnifying-glass"></i></span>
                         <input type="text" class="form-control fs-3" placeholder="البحث عن منتجات ، اصناف"
                             aria-label="Example text with button addon" aria-describedby="button-addon1">
@@ -169,33 +176,48 @@
             <!-- End Slider  -->
         </div>
         <!-- End Header -->
-        <div class="container">
+        <div class="container ">
             <div class="row">
-
-
-                <div class="col-2">
+                <div class="col-2 d-none d-lg-flex">
                     <div class="card">
-                        <ul class="list-group p-3 fs-5">
-                            <li class="list-group-item border-0"><i class="fa-solid fa-umbrella"></i>An item</li>
-                            <li class="list-group-item border-0"><i class="fa-solid fa-apple-whole"></i>A second item
+                        <ul class="list-group p-3 fs-5 ">
+                            <li class="list-group-item border-0"><i
+                                    class="fa-solid fa-umbrella ps-3 text-main-color"></i>بقالــة</li>
+                            <li class="list-group-item border-0"><i
+                                    class="fa-solid fa-apple-whole ps-3 text-main-color"></i>الصحــة والجمـال
                             </li>
-                            <li class="list-group-item border-0"><i class="fa-brands fa-algolia"></i>A third item</li>
-                            <li class="list-group-item border-0"><i class="fa-regular fa-handshake"></i>An item</li>
-                            <li class="list-group-item border-0"><i class="fa-brands fa-shopify"></i>A second item</li>
-                            <li class="list-group-item border-0"><i class="fa-solid fa-radio"></i>A third item</li>
-                            <li class="list-group-item border-0"><i class="fa-solid fa-soap"></i>An item</li>
-                            <li class="list-group-item border-0"><i class="fa-solid fa-glasses"></i>A second item</li>
-                            <li class="list-group-item border-0"><i class="fa-solid fa-van-shuttle"></i>A third item
+                            <li class="list-group-item border-0"><i
+                                    class="fa-brands fa-algolia ps-3 text-main-color"></i>أزيــاء</li>
+                            <li class="list-group-item border-0"><i
+                                    class="fa-regular fa-handshake ps-3 text-main-color"></i>موبايلات وتابلت</li>
+                            <li class="list-group-item border-0"><i
+                                    class="fa-brands fa-shopify ps-3 text-main-color"></i>الالكترونيات</li>
+                            <li class="list-group-item border-0"><i
+                                    class="fa-solid fa-radio ps-3 text-main-color"></i>المنزل والمكتب</li>
+                            <li class="list-group-item border-0"><i
+                                    class="fa-solid fa-soap ps-3 text-main-color"></i>الكمبيوتر</li>
+                            <li class="list-group-item border-0"><i
+                                    class="fa-solid fa-glasses ps-3 text-main-color"></i>مستلزمات سيارات</li>
+                            <li class="list-group-item border-0"><i
+                                    class="fa-solid fa-van-shuttle ps-3 text-main-color"></i>طابعات
                             </li>
-                            <li class="list-group-item border-0"><i class="fa-solid fa-utensils"></i>A third item</li>
-                            <li class="list-group-item border-0">An item</li>
+                            <li class="list-group-item border-0"><i
+                                    class="fa-solid fa-utensils ps-3 text-main-color"></i>ملابــس شبابي</li>
+
+                            <li class="list-group-item border-0"><i
+                                    class="fa-solid fa-van-shuttle ps-3 text-main-color"></i>ملابــس حريمي
+                            </li>
+                            <li class="list-group-item border-0"><i
+                                    class="fa-solid fa-utensils ps-3 text-main-color"></i>ادوات مطبخ</li>
+                            <li class="list-group-item border-0"><i
+                                    class="fa-solid fa-soap ps-3 text-main-color"></i>نجـــف</li>
 
 
 
                         </ul>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-lg-8">
                     <div id="carouselExampleAutoplaying" class="carousel slide h-75" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -230,24 +252,28 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-3 ">
-                    <div class="row w-75">
+                <div class="col-2 d-none d-lg-flex">
+                    <div class="row d-flex flex-column justify-content-center  w-100 m-0">
                         <div class="card mb-3 p-1 border-0 ">
-                            <img src="images/home/img-child.png" class="card-img-top" alt="...">
+                            <img src="images/home/discount1.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card p-1 border-0">
-                            <img src="images/home/img-child2.png" class="card-img-top" alt="...">
+                            <img src="images/home/discount2.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card p-1 border-0">
+                            <img src="images/home/discount3.png" class="card-img-top" alt="...">
                         </div>
                     </div>
 
                 </div>
             </div>
         </div>
+        <!-- Start Body Category Slider  -->
         <div class="container mt-3">
             <h2 class="mb-3">المنتجات الافضل مبيعا</h2>
             <div class="row d-flex flex-row justify-content-between">
-                <div class="col-3 card" style="width: 26rem;">
-                    <img src="images/home/Oil5.jpg" class="card-img-top" alt="...">
+                <div class="col-12 col-lg-3 card m-2" style="width: 26rem;">
+                    <img src="images/Products/gu5.png" style="height: 18rem;" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
@@ -255,8 +281,8 @@
                             content.</p>
                     </div>
                 </div>
-                <div class="col-3 card" style="width: 26rem;">
-                    <img src="images/home/Oil5.jpg" class="card-img-top" alt="...">
+                <div class="col-12 col-lg-3 card m-2" style="width: 26rem;">
+                    <img src="images/Products/hh3.png" style="height: 18rem;" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
@@ -264,8 +290,8 @@
                             content.</p>
                     </div>
                 </div>
-                <div class="col-3 card" style="width: 26rem;">
-                    <img src="images/home/Oil5.jpg" class="card-img-top" alt="...">
+                <div class="col-12 col-lg-3 card m-2" style="width: 26rem;">
+                    <img src="images/Products/hh5.png" style="height: 18rem;" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
@@ -273,8 +299,8 @@
                             content.</p>
                     </div>
                 </div>
-                <div class="col-3 card" style="width: 26rem;">
-                    <img src="images/home/Oil5.jpg" class="card-img-top" alt="...">
+                <div class="col-12 col-lg-3 card m-2" style="width: 26rem;">
+                    <img src="images/Products/hh2.png" style="height: 18rem;" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
@@ -287,11 +313,16 @@
         <div class="container mt-3 d-flex justify-content-center p-2 qast">
             <h2>إستمتع بعروض التقسيط</h2>
         </div>
-        <!-- Start Carousal Category Slider  -->
-        <div class="container mt-3">
-            <img src="images/home/discount.png" alt="">
-        </div>
 
+        <div class="container p-0 mt-3">
+            <div class="row">
+                <img src="images/home/INSTAL8.gif" alt="">
+            </div>
+
+        </div>
+        <div class="container mt-3 d-flex justify-content-center p-2 qast">
+            <h2>أفضل عروضنــأ</h2>
+        </div>
         <!-- Start Footer -->
         <div class="footer bg-dark text-secondary-emphasis mt-4 pt-5 pb-5" style="opacity: 0.9">
             <div class="container">

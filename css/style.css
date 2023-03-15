@@ -78,7 +78,7 @@ body {
 }
 
 .navbar,
-.navbar > a {
+.navbar>a {
 	font-family: var(--main-font);
 	font-weight: 600;
 }
@@ -87,8 +87,8 @@ a:hover {
 	color: var(--banner-color) !important;
 }
 
-.info > li,
-.info > li > a {
+.info>li,
+.info>li>a {
 	font-size: 14px;
 	font-family: var(--main-font);
 	font-weight: 500;
@@ -100,6 +100,7 @@ a:hover {
 	-ms-transition: 0.5s;
 	-o-transition: 0.5s;
 }
+
 @media (max-width: 765px) {
 	.Adel_font div ul li {
 		font-size: 0px !important;
@@ -125,6 +126,7 @@ a:hover {
 	background-color: var(--qast-color);
 }
 
+/* 
 .card:hover {
 	transition: 1s;
 	transform: scale(1.2);
@@ -136,4 +138,4 @@ a:hover {
 	-moz-transition: 1s;
 	-ms-transition: 1s;
 	-o-transition: 1s;
-}
+} */

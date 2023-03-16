@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Bootstrap demo</title>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-			crossorigin="anonymous"
-		/>
-		<link rel="stylesheet" href="all.css" />
-		<link rel="stylesheet" href="all.min.css" />
-		<link rel="stylesheet" href="product.css" />
 
-	
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="كل شيء تحبه في سوق.كوم الان اصبح على جوميا مصر. استكشف وتسوّق الالكترونيات، الكمبيوترات، الملابس، الاكسسوارات، الأحذية، الساعات، الأثاث، مستلزمات المنزل والمطبخ، منتجات الجمال والعناية الشخصية،
+                البقالة والمزيد. استمتع بأفضل العروض، والدفع عند الاستلام و ترجيع واستبدال مشترياتك بسهولة." />
+		<title>
+			سوق بقى جوميا | اهلا بكم في جوميا مصر | تسوق اون لاين الاجهزة الالكترونية،
+			الملابس، منتجات الجمال، البقالة واكثر فقط على جوميا مصر
+		</title>
+		<!-- Place favicon.ico in the root directory -->
+		<link rel="shortcut icon" type="image/x-icon" href="images/logo.ico" />
+		<!-- <link rel="apple-touch-icon" href="images/myjumia-top-logo.png"> -->
+		<!-- Style Files -->
+		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/all.min.css" />
+		<link rel="stylesheet" href="css/Product.css">
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- <link rel="stylesheet" href="css/normalize.css" /> -->
+		<!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+		<!-- Calling  Library of Fonts -->
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@200;300;400;500&display=swap"
+			rel="stylesheet" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+			crossorigin="anonymous" />
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+			crossorigin="anonymous"></script>
 	</head>
+
 	<body>
-			<!-- Start Header  -->
+		<!-- Start Header  -->
 		<div class="container p-0" id="top">
 			<!-- Start Banner  -->
 			<div class="container">
@@ -25,11 +45,7 @@
 					<div class="container h-25">
 						<div class="row d-flex justify-content-around">
 							<div class="col w-25 w-md-50 col-lg-100">
-								<img
-									class="w-100 w-md-50 col-lg-100"
-									src="/productImg/logo.png"
-									alt=""
-								/>
+								<img class="w-100 w-md-50 col-lg-100" src="/productImg/logo.png" alt="" />
 							</div>
 						</div>
 					</div>
@@ -72,31 +88,19 @@
 				<nav class="navbar navbar-expand-lg bg-body-light">
 					<div class="container">
 						<div class="nav-item dropdown ms-3 fs-4 d-none d-lg-flex">
-							<a
-								class="nav-link"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
+							<a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								<i class="fa-solid fa-bars fs-4"></i>
 							</a>
 							<ul class="dropdown-menu dropdown-menu-end mt-3 fs-5">
 								<li class="m-2">
-									<a class="dropdown-item d-flex justify-content-start" href="#"
-										>مركز المساعدة</a
-									>
+									<a class="dropdown-item d-flex justify-content-start" href="#">مركز المساعدة</a>
 								</li>
 								<li class="m-2">
-									<a class="dropdown-item d-flex justify-content-start" href="#"
-										>المساعدة في طلبك</a
-									>
+									<a class="dropdown-item d-flex justify-content-start" href="#">المساعدة في طلبك</a>
 								</li>
 
 								<li class="m-2">
-									<a class="dropdown-item d-flex justify-content-start" href="#"
-										>إلغاء طلبي</a
-									>
+									<a class="dropdown-item d-flex justify-content-start" href="#">إلغاء طلبي</a>
 								</li>
 							</ul>
 						</div>
@@ -106,60 +110,37 @@
 							JUMIA
 						</div>
 						<div class="input-group w-50 me-5">
-							<span class="input-group-text me-5 fs-3" id="addon-wrapping"
-								><i class="fa-solid fa-magnifying-glass"></i
-							></span>
-							<input
-								type="text"
-								class="form-control fs-3"
-								placeholder="البحث عن منتجات ، اصناف"
-								aria-label="Example text with button addon"
-								aria-describedby="button-addon1"
-							/>
+							<span class="input-group-text me-5 fs-3" id="addon-wrapping"><i
+									class="fa-solid fa-magnifying-glass"></i></span>
+							<input type="text" class="form-control fs-3" placeholder="البحث عن منتجات ، اصناف"
+								aria-label="Example text with button addon" aria-describedby="button-addon1" />
 							<button type="button" class="btn rounded-4 search me-3 fs-3">
 								بحث
 							</button>
 						</div>
-						<button
-							class="navbar-toggler"
-							type="button"
-							data-bs-toggle="collapse"
-							data-bs-target="#navbarSupportedContent"
-							aria-controls="navbarSupportedContent"
-							aria-expanded="false"
-							aria-label="Toggle navigation"
-						>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+							aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
 								<li class="nav-item dropdown">
-									<a
-										class="nav-link dropdown-toggle fs-5"
-										href="#"
-										role="button"
-										data-bs-toggle="dropdown"
-										aria-expanded="false"
-									>
+									<a class="nav-link dropdown-toggle fs-5" href="#" role="button"
+										data-bs-toggle="dropdown" aria-expanded="false">
 										<i class="fa-regular fa-user"></i>
 										تسجيل الدخول
 									</a>
 									<ul class="dropdown-menu dropdown-menu-end m-2 fs-5">
 										<li class="btn btn-warning m-2">
-											<a
-												class="dropdown-item d-flex justify-content-start fs-5"
-												href="#"
-												>تسجيل الدخول</a
-											>
+											<a class="dropdown-item d-flex justify-content-start fs-5" href="#">تسجيل
+												الدخول</a>
 										</li>
 										<li>
 											<hr class="dropdown-divider" />
 										</li>
 										<li>
-											<a
-												class="dropdown-item d-flex justify-content-start"
-												href="#"
-											>
+											<a class="dropdown-item d-flex justify-content-start" href="#">
 												<i class="fa-regular fa-user ms-2"></i>
 												الحســاب
 											</a>
@@ -167,38 +148,24 @@
 									</ul>
 								</li>
 								<li class="nav-item dropdown fs-4">
-									<a
-										class="nav-link dropdown-toggle"
-										href="#"
-										role="button"
-										data-bs-toggle="dropdown"
-										aria-expanded="false"
-									>
+									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+										aria-expanded="false">
 										<i class="fa-regular fa-circle-question"></i>
 										مســاعدة
 									</a>
 									<ul class="dropdown-menu dropdown-menu-end fs-5">
 										<li class="m-2">
-											<a
-												class="dropdown-item d-flex justify-content-start"
-												href="#"
-												>مركز المساعدة</a
-											>
+											<a class="dropdown-item d-flex justify-content-start" href="#">مركز
+												المساعدة</a>
 										</li>
 										<li class="m-2">
-											<a
-												class="dropdown-item d-flex justify-content-start"
-												href="#"
-												>المساعدة في طلبك</a
-											>
+											<a class="dropdown-item d-flex justify-content-start" href="#">المساعدة في
+												طلبك</a>
 										</li>
 
 										<li class="m-2">
-											<a
-												class="dropdown-item d-flex justify-content-start"
-												href="#"
-												>إلغاء طلبي</a
-											>
+											<a class="dropdown-item d-flex justify-content-start" href="#">إلغاء
+												طلبي</a>
 										</li>
 									</ul>
 								</li>
@@ -221,246 +188,332 @@
 		</div>
 		<!-- End Header -->
 		<div class="container">
-			<nav
-			style="background-color: #e0d8d8;"
-			class="p-3 fs-3 fw-bold ps-5"
-			aria-label="breadcrumb"
-		>
-			<ol class="breadcrumb">
-				<li><i class="fa-solid fa-house me-3 text-primary"></i></li>
-				<li class="breadcrumb-item"><a href="#">Home</a></li>
-				<li class="breadcrumb-item active" aria-current="page">Products</li>
-			</ol>
-		</nav>
+			<nav style="background-color: #e0d8d8;" class="p-3 fs-3 fw-bold ps-5" aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li><i class="fa-solid fa-house me-3 text-primary"></i></li>
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Products</li>
+				</ol>
+			</nav>
 		</div>
 		<div class="container mt-4 ">
 			<div class="data w-100 row m-auto">
 				<div class="mt-5 left col-12 col-lg-4 border border-dark p-0">
-					<div
-						class="categories text-center gap-3 pb-2 pt-2 text-center"
-						style="background-color: #eae5e5aa;"
-					>
+					<div class="categories text-center gap-3 pb-2 pt-2 text-center"
+						style="background-color: #eae5e5aa;">
 						<h3 ">CATEGORIES</h3>
 					</div>
-					<div class="categories ">
-						<div class="category">
-						<div class="head d-flex gap-3 mt-3">
-							<i class="ms-3 fw-bold h2 text-warning fa-solid fa-arrow-right"></i>
-							<h4 class="fw-bold text-secondary">Fruits And Vegetables</h4>
-						</div>				
-						</div>
-						<div class="category">
+					<div class=" categories ">
+						<div class=" category">
+							<div class="head d-flex gap-3 mt-3">
+								<i class="ms-3 fw-bold h2 text-warning fa-solid fa-arrow-right"></i>
+								<h4 class="fw-bold text-secondary">Fruits And Vegetables</h4>
+							</div>
+					</div>
+					<div class="category">
 
 
 						<div class="head d-flex gap-3 mt-3">
 							<i class="ms-3 fw-bold h2 text-warning fa-solid fa-arrow-right"></i>
 							<h4 class="fw-bold text-secondary">Fruits And Vegetables</h4>
-						</div>				
 						</div>
-						<div class="category ">
+					</div>
+					<div class="category ">
 
 						<div class="head d-flex gap-3 mt-3">
 							<i class="ms-3 fw-bold h2 text-warning fa-solid fa-arrow-right"></i>
 							<h4 class="fw-bold text-secondary">Fruits And Vegetables</h4>
-						</div>				
 						</div>
 					</div>
-				</div>
-				<div class="right col=12 col-lg-8 ">
-					<div class="up d-flex gap-3 mb-5 mt-5 justify-content-end me-1">
-						<div class="page border border-dark">			
- 						 <select class="p-1" >
-    						 <option value="volvo">Item On Page 9</option>
-    						 <option value="volvo">Item On Page 18</option>
-    						 <option value="volvo">Item On Page 32</option>
-    						 <option value="volvo">All</option>
- 							</select>
-						</div>
-						<div class="page border border-dark">			
- 						 <select class="p-1" >
-    						 <option value="volvo">Default Sorting</option>
-    						 <option value="volvo">Sort by popularty</option>
-    						 <option value="volvo">Sort by rating</option>
-    						 <option value="volvo">Sort by Price</option>
- 							</select>
-						</div>
-						
-					</div>
-					<div class="down text-center">
-						<div class="product position-relative border border-secondary">
-							<div
-								class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light"
-							>
-								OFFER
-							</div>
-							<img class="mt-5" src="productImg/1.png" alt="" />
-							<p class="ps-2 mb-4 mt-4">Sampann-Toor-Dal</p>
-							<div
-								class="ps-2 price d-flex gap-3 d-flex justify-content-center"
-							>
-								<h6 class="fw-bold">$35.99</h6>
-								<h6 class="text-decoration-line-through">$55.00</h6>
-							</div>
-							<button class="mb-4 mt-4 btn btn-primary" type="button">
-								Add to cart
-							</button>
-						</div>
-						<div class="product position-relative border border-secondary">
-							<div
-								class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light"
-							>
-								OFFER
-							</div>
-							<img class="mt-5" src="productImg/2.png" alt="" />
-							<p class="ps-2 mb-4 mt-4">Parryss-Sugar</p>
-							<div
-								class="ps-2 price d-flex gap-3 d-flex justify-content-center"
-							>
-								<h6 class="fw-bold">$30.99 </h6>
-								<h6 class="text-decoration-line-through">$45.00</h6>
-							</div>
-							<button class="mb-4 mt-4 btn btn-primary" type="button">
-								Add to cart
-							</button>
-						</div>
-						<div class="product position-relative border border-secondary">
-							<div
-								class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light"
-							>
-								OFFER
-							</div>
-							<img class="mt-5" src="productImg/3.png" alt="" />
-							<p class="ps-2 mb-4 mt-4">Saffola-Gold</p>
-							<div
-								class="ps-2 price d-flex gap-3 d-flex justify-content-center"
-							>
-								<h6 class="fw-bold">$80.99</h6>
-								<h6 class="text-decoration-line-through">$105.00</h6>
-							</div>
-							<button class="mb-4 mt-4 btn btn-primary" type="button">
-								Add to cart
-							</button>
-						</div>
-						<div class="product position-relative border border-secondary">
-							<div
-								class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light"
-							>
-								OFFER
-							</div>
-							<img class="mt-5" src="productImg/4.png" alt="" />
-							<p class="ps-2 mb-4 mt-4">Parryss-Sugar</p>
-							<div
-								class="ps-2 price d-flex gap-3 d-flex justify-content-center"
-							>
-								<h6 class="fw-bold">$30.99</h6>
-								<h6 class="text-decoration-line-through">$45.00</h6>
-							</div>
-							<button class="mb-4 mt-4 btn btn-primary" type="button">
-								Add to cart
-							</button>
-						</div>
-						<div class="product position-relative border border-secondary">
-							<div
-								class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light"
-							>
-								OFFER
-							</div>
-							<img class="mt-5" src="productImg/5.png" alt="" />
-							<p class="ps-2 mb-4 mt-4">Saffola-Gold</p>
-							<div
-								class="ps-2 price d-flex gap-3 d-flex justify-content-center"
-							>
-								<h6 class="fw-bold">$35.99</h6>
-								<h6 class="text-decoration-line-through">$55.00</h6>
-							</div>
-							<button class="mb-4 mt-4 btn btn-primary" type="button">
-								Add to cart
-							</button>
-						</div>
-						<div class="product position-relative border border-secondary">
-							<div
-								class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light"
-							>
-								OFFER
-							</div>
-							<img class="mt-5" src="productImg/6.png" alt="" />
-							<p class="ps-2 mb-4 mt-4">Sampann-Toor-Dal</p>
-							<div
-								class="ps-2 price d-flex gap-3 d-flex justify-content-center"
-							>
-								<h6 class="fw-bold">$35.99</h6>
-								<h6 class="text-decoration-line-through">$55.00</h6>
-							</div>
-							<button class="mb-4 mt-4 btn btn-primary" type="button">
-								Add to cart
-							</button>
-						</div>
-						<div class="product position-relative border border-secondary">
-							<div
-								class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light"
-							>
-								OFFER
-							</div>
-							<img class="mt-5" src="productImg/7.png" alt="" />
-							<p class="ps-2 mb-4 mt-4">Sampann-Toor-Dal</p>
-							<div
-								class="ps-2 price d-flex gap-3 d-flex justify-content-center"
-							>
-								<h6 class="fw-bold">$35.99</h6>
-								<h6 class="text-decoration-line-through">$55.00</h6>
-							</div>
-							<button class="mb-4 mt-4 btn btn-primary" type="button">
-								Add to cart
-							</button>
-						</div>
-						<div class="product position-relative border border-secondary">
-							<div
-								class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light"
-							>
-								OFFER
-							</div>
-							<img class="mt-5" src="productImg/8.png" alt="" />
-							<p class="ps-2 mb-4 mt-4">Sampann-Toor-Dal</p>
-							<div
-								class="ps-2 price d-flex gap-3 d-flex justify-content-center"
-							>
-								<h6 class="fw-bold">$35.99</h6>
-								<h6 class="text-decoration-line-through">$55.00</h6>
-							</div>
-							<button class="mb-4 mt-4 btn btn-primary" type="button">
-								Add to cart
-							</button>
-						</div>
-						<div class=" product position-relative border border-secondary">
-							<div
-								class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light"
-							>
-								OFFER
-							</div>
-							<img class="mt-5" src="productImg/9.png" alt="" />
-							<p class="ps-2 mb-4 mt-4">Sampann-Toor-Dal</p>
-							<div
-								class="ps-2 price d-flex gap-3 d-flex justify-content-center"
-							>
-								<h6 class="fw-bold">$35.99</h6>
-								<h6 class="text-decoration-line-through">$55.00</h6>
-							</div>
-							<button class="mb-4 mt-4 btn btn-primary" type="button">
-								Add to cart
-							</button>
-						</div>
-					</div>
-					
 				</div>
 			</div>
-			
+			<div class="right col=12 col-lg-8 ">
+				<div class="up d-flex gap-3 mb-5 mt-5 justify-content-end me-1">
+					<div class="page border border-dark">
+						<select class="p-1">
+							<option value="volvo">Item On Page 9</option>
+							<option value="volvo">Item On Page 18</option>
+							<option value="volvo">Item On Page 32</option>
+							<option value="volvo">All</option>
+						</select>
+					</div>
+					<div class="page border border-dark">
+						<select class="p-1">
+							<option value="volvo">Default Sorting</option>
+							<option value="volvo">Sort by popularty</option>
+							<option value="volvo">Sort by rating</option>
+							<option value="volvo">Sort by Price</option>
+						</select>
+					</div>
+
+				</div>
+				<div class="down text-center">
+					<div class="product position-relative border border-secondary">
+						<div class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light">
+							OFFER
+						</div>
+						<img class="mt-5" src="productImg/1.png" alt="" />
+						<p class="ps-2 mb-4 mt-4">Sampann-Toor-Dal</p>
+						<div class="ps-2 price d-flex gap-3 d-flex justify-content-center">
+							<h6 class="fw-bold">$35.99</h6>
+							<h6 class="text-decoration-line-through">$55.00</h6>
+						</div>
+						<button class="mb-4 mt-4 btn btn-primary" type="button">
+							Add to cart
+						</button>
+					</div>
+					<div class="product position-relative border border-secondary">
+						<div class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light">
+							OFFER
+						</div>
+						<img class="mt-5" src="productImg/2.png" alt="" />
+						<p class="ps-2 mb-4 mt-4">Parryss-Sugar</p>
+						<div class="ps-2 price d-flex gap-3 d-flex justify-content-center">
+							<h6 class="fw-bold">$30.99 </h6>
+							<h6 class="text-decoration-line-through">$45.00</h6>
+						</div>
+						<button class="mb-4 mt-4 btn btn-primary" type="button">
+							Add to cart
+						</button>
+					</div>
+					<div class="product position-relative border border-secondary">
+						<div class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light">
+							OFFER
+						</div>
+						<img class="mt-5" src="productImg/3.png" alt="" />
+						<p class="ps-2 mb-4 mt-4">Saffola-Gold</p>
+						<div class="ps-2 price d-flex gap-3 d-flex justify-content-center">
+							<h6 class="fw-bold">$80.99</h6>
+							<h6 class="text-decoration-line-through">$105.00</h6>
+						</div>
+						<button class="mb-4 mt-4 btn btn-primary" type="button">
+							Add to cart
+						</button>
+					</div>
+					<div class="product position-relative border border-secondary">
+						<div class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light">
+							OFFER
+						</div>
+						<img class="mt-5" src="productImg/4.png" alt="" />
+						<p class="ps-2 mb-4 mt-4">Parryss-Sugar</p>
+						<div class="ps-2 price d-flex gap-3 d-flex justify-content-center">
+							<h6 class="fw-bold">$30.99</h6>
+							<h6 class="text-decoration-line-through">$45.00</h6>
+						</div>
+						<button class="mb-4 mt-4 btn btn-primary" type="button">
+							Add to cart
+						</button>
+					</div>
+					<div class="product position-relative border border-secondary">
+						<div class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light">
+							OFFER
+						</div>
+						<img class="mt-5" src="productImg/5.png" alt="" />
+						<p class="ps-2 mb-4 mt-4">Saffola-Gold</p>
+						<div class="ps-2 price d-flex gap-3 d-flex justify-content-center">
+							<h6 class="fw-bold">$35.99</h6>
+							<h6 class="text-decoration-line-through">$55.00</h6>
+						</div>
+						<button class="mb-4 mt-4 btn btn-primary" type="button">
+							Add to cart
+						</button>
+					</div>
+					<div class="product position-relative border border-secondary">
+						<div class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light">
+							OFFER
+						</div>
+						<img class="mt-5" src="productImg/6.png" alt="" />
+						<p class="ps-2 mb-4 mt-4">Sampann-Toor-Dal</p>
+						<div class="ps-2 price d-flex gap-3 d-flex justify-content-center">
+							<h6 class="fw-bold">$35.99</h6>
+							<h6 class="text-decoration-line-through">$55.00</h6>
+						</div>
+						<button class="mb-4 mt-4 btn btn-primary" type="button">
+							Add to cart
+						</button>
+					</div>
+					<div class="product position-relative border border-secondary">
+						<div class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light">
+							OFFER
+						</div>
+						<img class="mt-5" src="productImg/7.png" alt="" />
+						<p class="ps-2 mb-4 mt-4">Sampann-Toor-Dal</p>
+						<div class="ps-2 price d-flex gap-3 d-flex justify-content-center">
+							<h6 class="fw-bold">$35.99</h6>
+							<h6 class="text-decoration-line-through">$55.00</h6>
+						</div>
+						<button class="mb-4 mt-4 btn btn-primary" type="button">
+							Add to cart
+						</button>
+					</div>
+					<div class="product position-relative border border-secondary">
+						<div class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light">
+							OFFER
+						</div>
+						<img class="mt-5" src="productImg/8.png" alt="" />
+						<p class="ps-2 mb-4 mt-4">Sampann-Toor-Dal</p>
+						<div class="ps-2 price d-flex gap-3 d-flex justify-content-center">
+							<h6 class="fw-bold">$35.99</h6>
+							<h6 class="text-decoration-line-through">$55.00</h6>
+						</div>
+						<button class="mb-4 mt-4 btn btn-primary" type="button">
+							Add to cart
+						</button>
+					</div>
+					<div class=" product position-relative border border-secondary">
+						<div class="offer position-absolute top-0 end-0 bg-warning p-1 ps-2 pe-2 fw-bold text-light">
+							OFFER
+						</div>
+						<img class="mt-5" src="productImg/9.png" alt="" />
+						<p class="ps-2 mb-4 mt-4">Sampann-Toor-Dal</p>
+						<div class="ps-2 price d-flex gap-3 d-flex justify-content-center">
+							<h6 class="fw-bold">$35.99</h6>
+							<h6 class="text-decoration-line-through">$55.00</h6>
+						</div>
+						<button class="mb-4 mt-4 btn btn-primary" type="button">
+							Add to cart
+						</button>
+					</div>
+				</div>
+
+			</div>
 		</div>
 
-		<script src="product.js"></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		</div>
+		<!-- Start Footer -->
+
+		<div class="container-fluid">
+			<div class="footer bg-dark text-secondary-emphasis mt-4 pt-5 pb-5" style="opacity: 0.9;">
+				<div class="container">
+					<div class="Adel_font row row-cols-4 text-light-emphasis">
+						<div class="col p-2 footer_grid">
+							<h3 class="footer-title mt-3">تواصل معنا</h3>
+
+							<ul class="info">
+								<li>
+									<i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
+									مصر - الحي الثالث 32541 <span>القاهرة الجديدة.</span>
+								</li>
+								<li>
+									<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a
+										href="mailto:info@example.com">info@.com</a>
+								</li>
+								<li>
+									<i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567
+								</li>
+							</ul>
+						</div>
+						<div class="col p-2 footer_grid">
+							<h3 class="footer-title mt-3">معلومــات</h3>
+							<ul class="info">
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a href="about.html">معلومــات
+										عنا</a>
+								</li>
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a href="contact.html">تواصل
+										معنا</a>
+								</li>
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a
+										href="short-codes.html">المختصر</a>
+								</li>
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a href="faq.html">طرق الدفع </a>
+								</li>
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a href="products.html">المنتجات
+										المفضلة</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col p-2 footer_grid">
+							<h3 class="footer-title mt-3">الأصنـــاف</h3>
+							<ul class="info">
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a href="groceries.html">المنتجات
+										المميزة</a>
+								</li>
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a href="household.html">الأكثر
+										مبيعا</a>
+								</li>
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a
+										href="personalcare.html">السلة</a>
+								</li>
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a
+										href="packagedfoods.html">المنتجات</a>
+								</li>
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a href="beverages.html">بيع علي
+										جوميا</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col p-2 footer_grid">
+							<h3 class="footer-title mt-3">الحســـاب</h3>
+							<ul class="info">
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a
+										href="products.html">المخزن</a>
+								</li>
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a href="checkout.html">أنضم
+										الينا</a>
+								</li>
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a href="login.html">تسجيل
+										الدخول</a>
+								</li>
+								<li>
+									<i class="fa fa-arrow-left" aria-hidden="true"></i><a href="registered.html">متابعة
+										الحساب</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copy header-banner">
+				<div class="container">
+					<p class="text-center text-dark pt-4 fs-5">
+						© 2023 Super Market. All lefts reserved | Design by
+						<a class="text-light" href="http://w3layouts.com/">Team ITI Graduation
+						</a>
+					</p>
+				</div>
+				<div>
+					<ul class="d-flex justify-content-center mt-3 mb-4 text-light fs-3 flex-row">
+						<li>
+							<a href="#" class="w3_agile_facebook m-4"><i class="fa fa-facebook text-light"
+									aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="#" class="agile_twitter m-4"><i class="fa fa-twitter text-light"
+									aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="#" class="w3_agile_dribble m-4"><i class="fa fa-dribbble text-light"
+									aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="#" class="w3_agile_vimeo m-4"><i class="fa fa-vimeo text-light"
+									aria-hidden="true"></i></a>
+						</li>
+					</ul>
+					<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i
+							class="fa-solid fa-arrow-up"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- End Footer -->
+		<script src="js/product.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-			crossorigin="anonymous"
-		></script>
+			crossorigin="anonymous"></script>
+
 	</body>
+
 </html>

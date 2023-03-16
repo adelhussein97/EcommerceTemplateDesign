@@ -95,10 +95,10 @@ a:hover {
 	padding-bottom: 1rem;
 	color: var(--gray-color-banner);
 	transition: 0.5s;
-	-webkit-transition: 0.5s;
-	-moz-transition: 0.5s;
-	-ms-transition: 0.5s;
-	-o-transition: 0.5s;
+	-webkit-transition: ;
+	-moz-transition: ;
+	-ms-transition: ;
+	-o-transition: ;
 }
 
 @media (max-width: 765px) {
@@ -125,5 +125,3 @@ a:hover {
 .qast {
 	background-color: var(--qast-color);
 }
-
-

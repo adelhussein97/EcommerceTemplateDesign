@@ -1,9 +1,10 @@
-.gmap_iframe {width:100%!important;height:600px!important;}
+.gmap_iframe {width:100%!important;height:920px!important;}
 .media{
 font-size: 2rem;
+
 }
 .media:hover{
-    transform: rotatex(50deg);
+    transform: rotate(20deg);
 }
 .EmailContactUs a{
     color: white;
@@ -11,7 +12,4 @@ font-size: 2rem;
 }
 .EmailContactUs a:hover{
     color: black;
-}
-.div-media-dark{
-    height: 100%;
 }
